@@ -1,0 +1,20 @@
+/*
+Sintaxis
+*/
+/* Regla de estilo (Rule) */
+/*
+selector {
+    propiedad1: valor;
+    propiedad2: valor;
+}
+    */
+
+/* Selectores de TIPO */
+
+body{
+    background-color: #1564ff; /* #000000 #ffffff */
+}
+
+header{
+    background-color: chartreuse;
+}
