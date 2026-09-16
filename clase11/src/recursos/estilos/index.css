@@ -1,0 +1,109 @@
+/*
+Sintaxis
+*/
+/* Regla de estilo (Rule) */
+/*
+selector {
+    propiedad1: valor;
+    propiedad2: valor;
+}
+    */
+
+* {
+    box-sizing: border-box;
+}
+
+/* IMPORTAR FUENTE */
+
+@font-face {
+    font-family: Poppins;
+    src: url(./fuentes/Poppins-Regular.ttf);
+}
+
+/* SELECTOR UNIVERSAL */
+
+* {
+    /* outline: 1px red solid; */
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Selectores de TIPO */
+
+html {
+    font-family: Poppins, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: #1564ff;
+    /* #000000 #ffffff */
+}
+
+
+header {
+    background-color: #ffff00;
+}
+
+header {
+    background-color: #ff0000;
+}
+
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+
+/* Selectores de CLASE */
+/* .vinculos{
+    color: #ffffff;
+} */
+
+
+/* ENCABEZADO */
+
+.encabezado-principal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cccccc;
+    padding: 5px;
+}
+
+.encabezado-principal a img {
+    width: 50px;
+}
+
+.encabezado-principal .vinculos a {
+    color: #333;
+}
+
+/* CONTENIDO PRINCIPAL */
+.contenido-principal {}
+
+.contenido-principal .contenedor-form{
+    padding: 20px 20%;
+}
+.contenido-principal .contenedor-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* PIE PRINCIPAL */
+.pie-principal {
+    background-color: #cccccc;
+}
+
+/* ATRIBUTO */
+/* [href]{
+
+} */
+
+/* #contactos{
+
+} */
