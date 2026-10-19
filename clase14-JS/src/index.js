@@ -6,11 +6,11 @@
 // }
 
 // Areglos idice arranca de 0
-// const numeros = [1,2,3,4,5,[1,[1]]]
+const numeros = [1,2,3,4,5,[1,[1]]]
 // // numeros = [1,2,3,4]
 // const numeros2 = [1,2,3,4,5,6]
 
-// console.log(numeros[5][1][0])
+console.log(numeros[5][1][0])
 // numeros[2] = 5
 
 // for (let i = 0; i < numeros.length; i++) {
@@ -21,7 +21,7 @@
 // Objetos
 
 const persona = {
-    // propiedad : valor
+    // clave (propiedad) : valor
     edad: 20,
     estudia: true,
     nombre: "Andres",
