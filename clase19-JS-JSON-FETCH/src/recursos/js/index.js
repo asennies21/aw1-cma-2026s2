@@ -18,11 +18,11 @@ const carro = document.getElementById('carro')
 const productosMascotas = await obtenerDatos(URL_PRODUCTOS)
 
 // Tarea ver lo siguiente
-/*
-obtenerDatos(URL_PRODUCTOS).then((datos)=>{
-    // planificar cuando se ejecuta este código
-})
-*/
+
+// obtenerDatos(URL_PRODUCTOS).then((datos)=>{
+//     // planificar cuando se ejecuta este código
+// })
+
 const productosCarrito = [] //--> push()
 // Escuchador
 eventoBoton.addEventListener('click', (evento)=>{
